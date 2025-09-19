@@ -45,7 +45,7 @@ Project Structure
 OA3801_CM_Project/
 │
 ├── app/
-│   ├── gui_app.py              # Main Tkinter GUI
+│   ├── gui_app_ENGLISH.py              # Main Tkinter GUI
 │   ├── scheduler_in_port.py    # In-port watch scheduler + Excel export
 │   ├── calendar_service.py     # Leave/unavailability/holiday handling
 │   ├── export_service.py       # Export helpers
@@ -74,7 +74,7 @@ Running the Application
 2. Make sure your terminal is set to the project root (OA3801_CM_Project).
 3. Run the GUI with:
 
-    PYTHONPATH=. python app/gui_app.py
+    PYTHONPATH=. python app/gui_app_ENGLISH.py
 
 4. The main window will open with three tabs: Personnel, Leave, Watchbills.
 
